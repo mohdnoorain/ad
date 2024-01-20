@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: speaking-partner.000webhostapp.com/
+        server: speaking-partner.000webhostapp.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /speaking-partner.files.000webhost.com/public_html
+        server-dir: /speaking-partner.000webhost.com/public_html
